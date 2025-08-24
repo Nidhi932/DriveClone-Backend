@@ -15,7 +15,6 @@ app.use(
     origin: [
       "https://drive-clone-frontend-sand.vercel.app/",
       "http://localhost:5173",
-      "https://*.vercel.app",
     ],
     methods: ["GET", "POST", "PATCH", "DELETE"],
     credentials: true,
