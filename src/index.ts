@@ -4,7 +4,6 @@ import cors from "cors";
 
 import authRouter from "./auth.js";
 import { authMiddleware } from "./middleware.js";
-// You will import other routers like filesRouter here later
 import filesRouter from "./files.js";
 
 const app = express();
