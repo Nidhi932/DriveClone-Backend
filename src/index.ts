@@ -12,10 +12,7 @@ const port = process.env.PORT || 8080;
 // Middleware to parse JSON bodies
 app.use(
   cors({
-    origin: [
-      "https://drive-clone-frontend-sand.vercel.app/",
-      "http://localhost:5173",
-    ],
+    origin: true,
     methods: ["GET", "POST", "PATCH", "DELETE"],
     credentials: true,
   })
