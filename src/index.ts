@@ -14,7 +14,8 @@ const port = process.env.PORT || 8080;
 app.use(
   cors({
     origin: [
-      "http://localhost:5173", // for local dev (Vite default)
+      "https://drive-clone-frontend-jade.vercel.app/",
+      "http://localhost:5173",
     ],
     methods: ["GET", "POST", "PATCH", "DELETE"],
     credentials: true,
